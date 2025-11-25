@@ -2,6 +2,7 @@ FROM payara/server-full:5.2022.4-jdk17
 
 USER root
 
+
 # Install mysql driver
 RUN apt-get update
 RUN apt-get -y install curl
